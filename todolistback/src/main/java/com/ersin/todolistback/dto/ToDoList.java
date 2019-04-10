@@ -21,7 +21,7 @@ public class ToDoList implements Serializable {
 	@Column(name = "listId")
 	private int id;
 	
-	private int userId;
+	private int userId=1;
 	
 	private String title;
 	
